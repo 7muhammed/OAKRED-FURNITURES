@@ -1004,11 +1004,11 @@ Products Page
 
 /*
 ===============
-Products Page
+Contact Page
 ===============
 */
 .contact {
-  width: 80%;
+  width: 100%;
   margin: 2rem auto;
 }
 .contact-center {
@@ -1028,7 +1028,7 @@ Products Page
 .contact h3 {
   margin-bottom: 2rem;
   text-transform: none;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 .contact p {
   margin-bottom: 40px;
@@ -1085,6 +1085,23 @@ Products Page
   .contact-left h3 {
     letter-spacing: 0;
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1rem;
+  }
+  .contact h2 {
+    letter-spacing: 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  .contact-center {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .contact-left h3 {
+    letter-spacing: 0;
+    font-weight: 700;
+    font-size: 1rem;
+  }
+  .contact h2 {
+    letter-spacing: 0;
   }
 }
