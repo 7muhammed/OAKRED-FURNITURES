@@ -1,0 +1,26 @@
+    <!--  product -->
+    <section class="section products">
+        <!-- title -->
+      <h2></h2>
+      <!-- end of title -->
+      <!-- products section -->
+      <div class="section-center products-center">
+      <!-- single product -->
+        <article class="product">
+          <img
+            src="./images/.jpg"
+            alt="product image"
+            class="product-img"
+          />
+          <h5></h5>
+          <h5>Model: A12206</h5>
+          <div class="seller-price">
+            <h5><span>$549.00</span></h5>
+            <h5 class="btn seller-btn">Add to cart</h5>
+          </div>
+        </article>
+        <!-- end of single product -->
+      </div>
+      <!-- end of products section -->
+    </section>
+    <!-- end of  product -->
